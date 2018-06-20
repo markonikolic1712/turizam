@@ -32,9 +32,11 @@ class Login {
 		$username = str_replace("'", "", $username);
 		$username = str_replace("-", "", $username);
 		$username = str_replace(" ", "", $username);
+		$username = str_replace("`", "", $username);
 		$password = str_replace("'", "", $password);
 		$password = str_replace("-", "", $password);
 		$password = str_replace(" ", "", $password);
+		$password = str_replace("`", "", $password);
 		
 		$pdo = Konekcija::getInstance();
 		$query =  $pdo->query("select * from users where users = '{$username}' and password = '{$password}' limit 1");
