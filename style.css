@@ -1,0 +1,293 @@
+body{
+	background-color: #DBD9D9;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 20px;
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+#uogovanIliNe{
+	text-align: right;
+	padding: 0;
+	font-size: 14px;
+	color: #FF6363;
+	margin-top: 10px; 
+	margin-right: 10px;
+}
+#header{
+	height: 50px;
+	background-color: #FD4545;
+	overflow: hidden;
+}
+#header img{
+	height: 50px;
+	display: block;
+	float: left;
+}
+#nav{
+	float: left;
+	color: white;
+	display: block;
+	height: 50px;
+}
+#nav ul {
+	margin-left: 110px;
+	list-style: none;
+}
+#nav ul li {
+	height: 50px;
+	float: left;
+}
+#nav ul li a {
+	font-style: italic;
+	padding: 25px 15px;
+}
+#nav ul li a:link,
+#nav ul li a:visited {
+	color: white;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	color: #FFFFFF;
+	background: #E29999;
+}
+#nav ul li a:active{
+	color: #333333;
+	background: #CCCCCC;
+}
+#nav #admin{
+	padding-left: 130px;
+}
+#xml_nav p{
+	margin-left: 380px;
+	line-height: 50px;
+	color: white;
+	display: block;
+}
+#main{
+	padding-top: 30px;
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.ponuda{
+	width: 250px;
+	float: left;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+.ponuda img{
+	width: 200px;
+	height: 230px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+.ponuda form {
+	margin: 0 auto;
+}
+.ponuda form input{
+	text-align: center;
+}
+.product_dugme{
+	position: absolute;
+	top: 50px;
+	left: 115px;
+	margin: 10px auto;
+	width: 350px;
+	height: 150px;
+	border: 1px solid #F9F8F8;
+	border-radius: 4px;
+	background-color: rgba(245,245,245,0.4);
+	font-size: 15px;
+}
+.product_dugme a {
+	display: block;
+	width: 350px;
+	line-height: 150px;
+	height: 150px;
+	text-align: center;
+}
+.product_dugme a:link ,
+.product_dugme a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.product_dugme a:hover {
+	color: #232222;
+	background: rgba(200, 200, 200, 0.6);
+}
+.ponuda #izborSobe{
+	float: right;
+	margin-right: 20px;
+}
+.ponuda #rezervisi1{
+	margin-top: 8px;
+	letter-spacing: 2px;
+	width: 200px;
+	background-color: #989CA5;
+}
+
+#footer{
+	margin: 0 auto;
+	height: 50px;
+	width: 600px;
+	background-color: white;
+	clear: both;
+	text-align: center;
+}
+#footer p{
+	padding: 15px 0 0 0;
+	color: #AFAEAE;
+	font-size: 14px;
+}
+#rezervacija_stil{
+	margin: 0 auto;
+}
+#rezervacija_stil table{
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+#rezervacija_stil input{
+	margin-top: 5px;
+	padding: 5px;
+	text-align: center;
+}
+#rezervacija_stil select {
+	margin-top: 5px;
+  	text-align: center;
+  	text-align-last: center;
+}
+#rezervacija_stil option {
+ 	text-align: center;
+  	text-align-last: center;
+}
+#rezervacija_stil #buttonRezervisi{
+	width: 150px;
+	margin-left: 80px;
+}
+#dolazakDatum{
+	width: 169px;
+}
+#brojNocenja{
+	width: 183px;
+}
+#buttonPlacanje{
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+}
+#main_rezervacije{
+	padding-top: 30px;
+	margin: 0 auto;
+	width: 600px;
+	min-height: 600px;
+	overflow: hidden;
+}
+#main_administriranje{
+	padding-top: 30px;
+	margin: 0 auto;
+	width: 600px;
+	height: 250px;
+	overflow: hidden;
+}
+#main_administriranje form{
+	float: left;
+	width: 280px;
+	margin: 0 auto;
+}
+#main_administriranje form input{
+	float: right;
+	margin: 3px;
+}
+#main_administriranje table{
+	border-collapse: collapse;
+}
+#main_administriranje input{
+	margin-top: 5px;
+	padding: 5px;
+	text-align: center;
+}
+#main_administriranje select {
+	margin-top: 5px;
+  	text-align: center;
+  	text-align-last: center;
+}
+#main_administriranje option {
+ 	text-align: center;
+  	text-align-last: center;
+}
+#polje{
+	width: 100%;
+}
+#slika img{
+	padding-right: 40px;
+	width: 230px;
+	float: right;
+}
+#main_loginStrana{
+	padding-top: 30px;
+	margin: 0 auto;
+	width: 600px;
+	min-height: 600px;
+}
+#main_loginStrana fieldset{
+	margin: 0 auto;
+}
+#main_loginStrana table, p{
+	margin: 0 auto;
+}
+#logoutDugme{
+	float: right;
+}
+#fakture_administriranje {
+
+}
+.tabelaFaktura {
+	float: left;
+	width: 290px;
+	margin: 5px 0 10px 4px;
+	border-collapse: collapse;
+    border: 1px solid #676767;
+}
+.tabelaFaktura table {
+	float: left;
+}
+.tabelaFaktura td {
+	padding: 3px 10px;
+	border: 1px solid #676767;
+	font-size: 14px;
+	background-color: white;
+}
+#vlasnici_administriranje p{
+    margin-top: 30px;
+    text-align: center;
+}
+#vlasnici_tabela input{
+    padding-left: 10px;
+}
+.vlasnici_tabela_red{
+    padding-bottom: 20px;
+}
+.vlasnici_tabela_dugme{
+    margin-bottom: 20px;
+    width: 100px; 
+}
+#main_loginStrana_xml{
+	padding-top: 30px;
+	margin: 0 auto;
+	width: 600px;
+    min-height: 600px;
+}
+#main_loginStrana_xml fieldset{
+	margin: 0 auto;
+}
+#main_loginStrana_xml table, p{
+	margin: 0 auto;
+}
+

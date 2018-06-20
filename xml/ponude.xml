@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<ponude>
+  <ponuda id="1">
+    <hotel>Grand Kopaonik</hotel>
+    <cena>5200</cena>
+    <slika>images/kopaonik.jpg</slika>
+    <idVlasnika>1</idVlasnika>
+  </ponuda>
+  <ponuda id="2">
+    <hotel>Stara Planina</hotel>
+    <cena>4600</cena>
+    <slika>images/stara_planina.jpg</slika>
+    <idVlasnika>1</idVlasnika>
+  </ponuda>
+  <ponuda id="3">
+    <hotel>Zlatibor</hotel>
+    <cena>4499</cena>
+    <slika>images/zlatibor.jpg</slika>
+    <idVlasnika>1</idVlasnika>
+  </ponuda>
+  <ponuda id="4">
+    <hotel>Jahorina</hotel>
+    <cena>5500</cena>
+    <slika>images/jahorina.jpg</slika>
+    <idVlasnika>2</idVlasnika>
+  </ponuda>
+  <ponuda id="5">
+    <hotel>Planinska kuca</hotel>
+    <cena>7300</cena>
+    <slika>images/planinska_kuca.jpg</slika>
+    <idVlasnika>2</idVlasnika>
+  </ponuda>
+  <ponuda id="60">
+    <hotel>Stara Planina Spa</hotel>
+    <cena>5200</cena>
+    <slika>images/Stara_Planina_Spa.jpg</slika>
+    <idVlasnika>2</idVlasnika>
+  </ponuda>
+</ponude>
